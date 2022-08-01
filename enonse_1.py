@@ -19,3 +19,4 @@ for i in addresse_1.split('.'):
         output += int(el)
 output = output * int(addresse_1[0])
 print(output)
+

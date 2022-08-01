@@ -3,7 +3,7 @@
 
 antre = input('Input whatever integer you want: ')
 while not antre.isdigit():
-    antre = input('That isn\' an integer please retry\n> ')
+    antre = input('That isn\'t an integer please retry\n> ')
 if int(antre) % 4 == 0:
     print('NOK!')
 else:
